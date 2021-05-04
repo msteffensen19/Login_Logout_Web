@@ -1,0 +1,816 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "soapaction",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "authorization",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "access-control-request-method",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "access-control-request-headers",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/xml"
+    },
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/svg+xml"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/jpeg"
+    },
+    {
+      "IsNonResource": false,
+      "type": "font/woff"
+    },
+    {
+      "IsNonResource": true,
+      "type": "application/json"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/javascript"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 19,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "May-03-2021",
+    "RecordingDuration": 144844,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1620078815,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 2670377,
+    "TotalBytesSent": 30938,
+    "TotalRequests": 57,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "gstatic.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.72.35",
+          "IncludeInScript": false,
+          "Name": "ssl.gstatic.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 31,
+              "EventId": 59,
+              "HttpStatus": 200,
+              "Size": 90905,
+              "URL": "https://ssl.gstatic.com/safebrowsing/csd/client_model_v5_variation_8.pb"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.11.227",
+          "IncludeInScript": false,
+          "Name": "update.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 31,
+              "EventId": 351,
+              "HttpStatus": 200,
+              "Size": 169,
+              "URL": "https://update.googleapis.com/service/update2/json"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 62,
+              "EventId": 347,
+              "HttpStatus": 200,
+              "Size": 1126,
+              "URL": "https://update.googleapis.com/service/update2/json?cup2key=10:3573848215&cup2hreq=2cb0e026e08113e0211f12cc37e0d08aeb6f001b184c887c5e862da35cfaa665"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.2.10",
+          "IncludeInScript": false,
+          "Name": "safebrowsing.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 16,
+              "EventId": 374,
+              "HttpStatus": 200,
+              "Size": 19088,
+              "URL": "https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$req=ChwKDGdvb2dsZWNocm9tZRIMOTAuMC40NDMwLjkzGikIBRABGhsKDQgFEAYYASIDMDAxMAEQ7ZQLGgIYC-jNU7MiBCABIAIoARopCAEQARobCg0IARAGGAEiAzAwMTABEOHoCBoCGAsJPnG1IgQgASACKAEaKQgDEAEaGwoNCAMQBhgBIgMwMDEwARD22QgaAhgLoXI2RyIEIAEgAigBGikIBxABGhsKDQgHEAYYASIDMDAxMAEQwqMJGgIYCyacLuciBCABIAIoARonCAEQARoZCg0IARAGGAEiAzAwMTADEBQaAhgL_jvijyIEIAEgAigDGigIARAIGhoKDQgBEAgYASIDMDAxMAQQ7B8aAhgL00h8FyIEIAEgAigEGicICRABGhkKDQgJEAYYASIDMDAxMAYQAxoCGAsi0R9kIgQgASACKAYaKAgPEAEaGgoNCA8QBhgBIgMwMDEwARDLZBoCGAs1ac1KIgQgASACKAEaJwgKEAgaGQoNCAoQCBgBIgMwMDEwARAGGgIYCyLt_l0iBCABIAIoARonCAkQARoZCg0ICRAGGAEiAzAwMTABEB8aAhgLLeN56iIEIAEgAigBGigICBABGhoKDQgIEAYYASIDMDAxMAEQhAwaAhgLfX-BtCIEIAEgAigBGikIDRABGhsKDQgNEAYYASIDMDAxMAEQtogBGgIYC1kXEDMiBCABIAIoARopCA4QARobCg0IDhAGGAEiAzAwMTABENW7BRoCGAvRS7hlIgQgASACKAEaKAgQEAEaGgoNCBAQBhgBIgMwMDEwARC9ChoCGAsXjvpAIgQgASACKAEiAggB&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.1.202",
+          "IncludeInScript": false,
+          "Name": "content-autofill.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 47,
+              "EventId": 202,
+              "HttpStatus": 200,
+              "Size": 60,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/ChNDaHJvbWUvOTAuMC40NDMwLjkzEiUJ0eERX7at6KYSBQ3njUAOEgUNzkFMehIFDXhvEhkSBQ0PFr4r?alt=proto"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.72.67",
+          "IncludeInScript": false,
+          "Name": "clientservices.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 47,
+              "EventId": 43,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=90"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google-analytics.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.1.206",
+          "IncludeInScript": false,
+          "Name": "www.google-analytics.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 32,
+              "EventId": 207,
+              "HttpStatus": 200,
+              "Size": 2,
+              "URL": "https://www.google-analytics.com/j/collect?v=1&_v=j90&a=1961351520&t=pageview&_s=1&dl=http%3A%2F%2Fnimbusserver.aos.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1691x934&vp=1544x788&je=0&_u=IEBAAEABAAAAAC~&jid=1864610313&gjid=206812207&cid=1595792217.1620078846&tid=UA-81334227-1&_gid=462067801.1620078846&_r=1&_slc=1&z=1579237452"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 16,
+              "EventId": 180,
+              "HttpStatus": 200,
+              "Size": 19569,
+              "URL": "https://www.google-analytics.com/analytics.js"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "aos.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "192.168.154.137",
+          "IncludeInScript": true,
+          "Name": "nimbusserver.aos.com",
+          "Port": 8002,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 46,
+              "EventId": 419,
+              "HttpStatus": 200,
+              "Size": 552,
+              "URL": "http://nimbusserver.aos.com:8002/catalog/api/v1/categories/attributes"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 94,
+              "EventId": 416,
+              "HttpStatus": 200,
+              "Size": 1972,
+              "URL": "http://nimbusserver.aos.com:8002/catalog/api/v1/categories/4/products"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 32,
+              "EventId": 404,
+              "HttpStatus": 200,
+              "Size": 110,
+              "URL": "http://nimbusserver.aos.com:8002/order/api/v1/carts/675949597"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 401,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://nimbusserver.aos.com:8002/order/api/v1/carts/675949597"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 62,
+              "EventId": 209,
+              "HttpStatus": 200,
+              "Size": 351,
+              "URL": "http://nimbusserver.aos.com:8002/catalog/api/v1/deals/search?dealOfTheDay=true"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 47,
+              "EventId": 204,
+              "HttpStatus": 200,
+              "Size": 4460,
+              "URL": "http://nimbusserver.aos.com:8002/catalog/api/v1/categories"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 31,
+              "EventId": 149,
+              "HttpStatus": 200,
+              "Size": 6458,
+              "URL": "http://nimbusserver.aos.com:8002/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "192.168.154.137",
+          "IncludeInScript": true,
+          "Name": "nimbusserver.aos.com",
+          "Port": 8001,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/xml",
+              "DownloadTime": 32,
+              "EventId": 409,
+              "HttpStatus": 200,
+              "Size": 402,
+              "URL": "http://nimbusserver.aos.com:8001//accountservice/ws/AccountLogoutRequest"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 407,
+              "HttpStatus": 200,
+              "Size": 2,
+              "URL": "http://nimbusserver.aos.com:8001//accountservice/ws/AccountLogoutRequest"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/xml",
+              "DownloadTime": 46,
+              "EventId": 395,
+              "HttpStatus": 200,
+              "Size": 791,
+              "URL": "http://nimbusserver.aos.com:8001//accountservice/ws/AccountLoginRequest"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 391,
+              "HttpStatus": 200,
+              "Size": 2,
+              "URL": "http://nimbusserver.aos.com:8001//accountservice/ws/AccountLoginRequest"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/xml",
+              "DownloadTime": 31,
+              "EventId": 183,
+              "HttpStatus": 200,
+              "Size": 823,
+              "URL": "http://nimbusserver.aos.com:8001//accountservice/ws/GetAccountConfigurationRequest"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 172,
+              "HttpStatus": 200,
+              "Size": 2,
+              "URL": "http://nimbusserver.aos.com:8001//accountservice/ws/GetAccountConfigurationRequest"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "192.168.154.137",
+          "IncludeInScript": true,
+          "Name": "nimbusserver.aos.com",
+          "Port": 8000,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 15,
+              "EventId": 492,
+              "HttpStatus": 200,
+              "Size": 58740,
+              "URL": "http://nimbusserver.aos.com:8000/catalog/fetchImage?image_id=4500"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 15,
+              "EventId": 489,
+              "HttpStatus": 200,
+              "Size": 70752,
+              "URL": "http://nimbusserver.aos.com:8000/catalog/fetchImage?image_id=4100"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 16,
+              "EventId": 487,
+              "HttpStatus": 200,
+              "Size": 50423,
+              "URL": "http://nimbusserver.aos.com:8000/catalog/fetchImage?image_id=4400"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 16,
+              "EventId": 470,
+              "HttpStatus": 200,
+              "Size": 49668,
+              "URL": "http://nimbusserver.aos.com:8000/catalog/fetchImage?image_id=4300"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 16,
+              "EventId": 466,
+              "HttpStatus": 200,
+              "Size": 71727,
+              "URL": "http://nimbusserver.aos.com:8000/catalog/fetchImage?image_id=4600"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 16,
+              "EventId": 460,
+              "HttpStatus": 200,
+              "Size": 53989,
+              "URL": "http://nimbusserver.aos.com:8000/catalog/fetchImage?image_id=4700"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 15,
+              "EventId": 452,
+              "HttpStatus": 200,
+              "Size": 46751,
+              "URL": "http://nimbusserver.aos.com:8000/catalog/fetchImage?image_id=4200"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 0,
+              "EventId": 435,
+              "HttpStatus": 200,
+              "Size": 1415,
+              "URL": "http://nimbusserver.aos.com:8000/css/images/Filter.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 0,
+              "EventId": 426,
+              "HttpStatus": 200,
+              "Size": 462083,
+              "URL": "http://nimbusserver.aos.com:8000/css/images/category_banner_4.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 422,
+              "HttpStatus": 200,
+              "Size": 1915,
+              "URL": "http://nimbusserver.aos.com:8000/app/views/category-page.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 16,
+              "EventId": 371,
+              "HttpStatus": 200,
+              "Size": 1029,
+              "URL": "http://nimbusserver.aos.com:8000/css/images/FacebookLogo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 16,
+              "EventId": 303,
+              "HttpStatus": 200,
+              "Size": 42737,
+              "URL": "http://nimbusserver.aos.com:8000/css/images/Popular-item1.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 62,
+              "EventId": 293,
+              "HttpStatus": 200,
+              "Size": 496378,
+              "URL": "http://nimbusserver.aos.com:8000/css/images/Banner1.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 32,
+              "EventId": 290,
+              "HttpStatus": 200,
+              "Size": 28087,
+              "URL": "http://nimbusserver.aos.com:8000/css/images/Popular-item2.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 32,
+              "EventId": 288,
+              "HttpStatus": 200,
+              "Size": 25978,
+              "URL": "http://nimbusserver.aos.com:8000/css/images/Popular-item3.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 31,
+              "EventId": 285,
+              "HttpStatus": 200,
+              "Size": 85091,
+              "URL": "http://nimbusserver.aos.com:8000/css/images/Banner2.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 16,
+              "EventId": 283,
+              "HttpStatus": 200,
+              "Size": 68456,
+              "URL": "http://nimbusserver.aos.com:8000/css/images/Banner3.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 281,
+              "HttpStatus": 200,
+              "Size": 1707,
+              "URL": "http://nimbusserver.aos.com:8000/css/images/linkedin.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 16,
+              "EventId": 279,
+              "HttpStatus": 200,
+              "Size": 2064,
+              "URL": "http://nimbusserver.aos.com:8000/css/images/twitter.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 0,
+              "EventId": 277,
+              "HttpStatus": 200,
+              "Size": 1583,
+              "URL": "http://nimbusserver.aos.com:8000/css/images/facebook.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 0,
+              "EventId": 274,
+              "HttpStatus": 200,
+              "Size": 2114,
+              "URL": "http://nimbusserver.aos.com:8000/css/images/GoUp.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 0,
+              "EventId": 272,
+              "HttpStatus": 200,
+              "Size": 3003,
+              "URL": "http://nimbusserver.aos.com:8000/css/images/chat_logo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff",
+              "DownloadTime": 0,
+              "EventId": 268,
+              "HttpStatus": 200,
+              "Size": 24944,
+              "URL": "http://nimbusserver.aos.com:8000/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff",
+              "DownloadTime": 16,
+              "EventId": 265,
+              "HttpStatus": 200,
+              "Size": 24808,
+              "URL": "http://nimbusserver.aos.com:8000/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 255,
+              "HttpStatus": 200,
+              "Size": 80826,
+              "URL": "http://nimbusserver.aos.com:8000/css/images/Special-offer.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 230,
+              "HttpStatus": 200,
+              "Size": 228775,
+              "URL": "http://nimbusserver.aos.com:8000/catalog/fetchImage?image_id=speakers"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 47,
+              "EventId": 228,
+              "HttpStatus": 200,
+              "Size": 63833,
+              "URL": "http://nimbusserver.aos.com:8000/catalog/fetchImage?image_id=tablets"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 15,
+              "EventId": 225,
+              "HttpStatus": 200,
+              "Size": 47798,
+              "URL": "http://nimbusserver.aos.com:8000/catalog/fetchImage?image_id=laptops"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 15,
+              "EventId": 223,
+              "HttpStatus": 200,
+              "Size": 60070,
+              "URL": "http://nimbusserver.aos.com:8000/catalog/fetchImage?image_id=headphones"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 15,
+              "EventId": 220,
+              "HttpStatus": 200,
+              "Size": 91647,
+              "URL": "http://nimbusserver.aos.com:8000/catalog/fetchImage?image_id=mice"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 0,
+              "EventId": 217,
+              "HttpStatus": 200,
+              "Size": 996,
+              "URL": "http://nimbusserver.aos.com:8000/css/images/arrow_right.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 215,
+              "HttpStatus": 200,
+              "Size": 2232,
+              "URL": "http://nimbusserver.aos.com:8000/app/views/home-page.html"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 212,
+              "HttpStatus": 200,
+              "Size": 500,
+              "URL": "http://nimbusserver.aos.com:8000/app/tempFiles/popularProducts.json"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff",
+              "DownloadTime": 0,
+              "EventId": 160,
+              "HttpStatus": 200,
+              "Size": 24576,
+              "URL": "http://nimbusserver.aos.com:8000/css/fonts/roboto_light_macroman/Roboto-Light-webfont.woff"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff",
+              "DownloadTime": 0,
+              "EventId": 156,
+              "HttpStatus": 200,
+              "Size": 25048,
+              "URL": "http://nimbusserver.aos.com:8000/css/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff",
+              "DownloadTime": 0,
+              "EventId": 146,
+              "HttpStatus": 200,
+              "Size": 25020,
+              "URL": "http://nimbusserver.aos.com:8000/css/fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 16,
+              "EventId": 143,
+              "HttpStatus": 200,
+              "Size": 1098,
+              "URL": "http://nimbusserver.aos.com:8000/css/images/closeDark.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 0,
+              "EventId": 139,
+              "HttpStatus": 200,
+              "Size": 2645,
+              "URL": "http://nimbusserver.aos.com:8000/css/images/logo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 133,
+              "HttpStatus": 200,
+              "Size": 1067,
+              "URL": "http://nimbusserver.aos.com:8000/services.properties"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 47,
+              "HttpStatus": 200,
+              "Size": 268184,
+              "URL": "http://nimbusserver.aos.com:8000/main.min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 15,
+              "EventId": 40,
+              "HttpStatus": 200,
+              "Size": 20995,
+              "URL": "http://nimbusserver.aos.com:8000/vendor/requirejs/require.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 32,
+              "EventId": 38,
+              "HttpStatus": 200,
+              "Size": 795,
+              "URL": "http://nimbusserver.aos.com:8000/css/images/Down_arrow.svg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 16,
+              "EventId": 33,
+              "HttpStatus": 200,
+              "Size": 30100,
+              "URL": "http://nimbusserver.aos.com:8000/css/main.min.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 15,
+              "EventId": 18,
+              "HttpStatus": 200,
+              "Size": 2805,
+              "URL": "http://nimbusserver.aos.com:8000/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 0
+}

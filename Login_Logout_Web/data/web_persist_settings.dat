@@ -1,0 +1,11 @@
+[StartRecordingGMT]
+StartRecordingGMT_1=2021/05/03 21:53:35
+StartRecordingIsDst_1=0
+[User-Agent]
+User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+[Security]
+UsingPersistForAuthentication=1
+UserName_1_1=Mercury
+Password_1_1=Mercury
+Realm_1_1=nimbusserver.aos.com:8002
+EventId_1_1=404

@@ -1,0 +1,17 @@
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: http://nimbusserver.aos.com:8000
+Vary: accept-encoding,origin,accept-encoding
+Expires: 0
+Cache-control: no-store
+Set-Cookie: JSESSIONID=9859B5C4BBD10EC7CB4E3355EB220B70; Path=/order; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: DENY
+Content-Encoding: gzip
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Mon, 03 May 2021 21:55:28 GMT
+Keep-Alive: timeout=20
+Connection: keep-alive
+

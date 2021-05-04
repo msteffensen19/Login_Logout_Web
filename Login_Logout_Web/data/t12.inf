@@ -1,0 +1,11 @@
+[t12]
+FileName1=t12_675949597.json
+URL1=http://nimbusserver.aos.com:8002/order/api/v1/carts/675949597
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_12.xml
+RequestHeaderFile=t12_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t12_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

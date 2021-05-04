@@ -1,0 +1,17 @@
+HTTP/1.1 200 
+Access-Control-Allow-Origin: http://nimbusserver.aos.com:8000
+Access-Control-Allow-Credentials: true
+Vary: Origin
+Access-Control-Max-Age: 3601
+Access-Control-Allow-Methods: HEAD, DELETE, POST, GET, OPTIONS, PUT
+Access-Control-Allow-Headers: Origin, Authorization, Accept, Content-Type
+Cache-Control: max-age=0
+Expires: Mon, 03 May 2021 21:55:24 GMT
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: DENY
+Transfer-Encoding: chunked
+Date: Mon, 03 May 2021 21:55:24 GMT
+Keep-Alive: timeout=20
+Connection: keep-alive
+
